@@ -1,31 +1,37 @@
+import todoAppImg from "../assets/to-do-app.png";
+import teaPointImg from "../assets/tea-point.jpg";
+import bullsAndCowsImg from "../assets/bulls-and-cows.png";
+import colorGuessingGameImg from "../assets/JavaScript-RGB-color-guessing-game.png";
+import gamerLandingPageImg from "../assets/nlw-project.png";
+
 export default [
   {
     title: "To-Do App",
-    imgUrl: "/src/assets/to-do-app.png",
+    imgUrl: todoAppImg,
     stack: ["Vite", "React", "HTML", "Tailwind", "TypeScript", "Express.js"],
     link: "https://easy-todo-app.onrender.com",
   },
   {
     title: "Tea Point",
-    imgUrl: "/src/assets/tea-point.jpg",
+    imgUrl: teaPointImg,
     stack: ["Vite", "React", "HTML", "Sass", "Tailwind", "Javascript"],
     link: "https://teapoint-shop.vercel.app",
   },
   {
     title: "Bulls and Cows",
-    imgUrl: "/src/assets/bulls-and-cows.png",
+    imgUrl: bullsAndCowsImg,
     stack: ["Npm", "Node.js", "Typescript"],
     link: "https://github.com/MarinnaPereira/bulls-and-cows-game",
   },
   {
     title: "The Great Color Guessing Game",
-    imgUrl: "/src/assets/JavaScript-RGB-color-guessing-game.png",
+    imgUrl: colorGuessingGameImg,
     stack: ["HTML", "CSS", "Javascript"],
     link: "https://marinnapereira.github.io/color-guessing-game/",
   },
   {
     title: "Gamer landing page",
-    imgUrl: "/src/assets/nlw-project.png",
+    imgUrl: gamerLandingPageImg,
     stack: ["HTML", "CSS"],
     link: "https://marinnapereira.github.io/nlw-esports-explorer/",
   },

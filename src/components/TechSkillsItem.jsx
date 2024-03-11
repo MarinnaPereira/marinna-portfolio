@@ -1,3 +1,5 @@
+import checkmark from "../assets/checkmark.png";
+
 const TechSkillsItem = ({ category, technologies }) => {
   return (
     <div className="mb-2 rounded-md pt-2 px-2 h-fit">
@@ -9,10 +11,7 @@ const TechSkillsItem = ({ category, technologies }) => {
         {technologies.map((tech, i) => (
           <div key={i} className="flex flex-col md:flex-row md:items-center">
             <div className="flex items-center">
-              <img
-                src="/src/assets/checkmark.png"
-                className="w-6 dark:hidden"
-              />
+              <img src={checkmark} className="w-6 dark:hidden" />
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
