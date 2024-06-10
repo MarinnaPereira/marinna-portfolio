@@ -1,3 +1,4 @@
+import tripVaultImg from "../assets/TripVault.png";
 import todoAppImg from "../assets/to-do-app.png";
 import teaPointImg from "../assets/tea-point.jpg";
 import bullsAndCowsImg from "../assets/bulls-and-cows.png";
@@ -5,6 +6,21 @@ import colorGuessingGameImg from "../assets/JavaScript-RGB-color-guessing-game.p
 import gamerLandingPageImg from "../assets/nlw-project.png";
 
 export default [
+  {
+    title: "TripVault",
+    imgUrl: tripVaultImg,
+    stack: [
+      "React Native",
+      "Expo",
+      "NativeWind",
+      "JavaScript",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Multer",
+    ],
+    link: "https://github.com/MarinnaPereira/trip-vault",
+  },
   {
     title: "To-Do App",
     imgUrl: todoAppImg,
