@@ -1,4 +1,4 @@
-import CV from "../assets/Marinna-CV.pdf";
+import CV from "../assets/Marinna-Pereira-CV.pdf";
 
 const Hero = () => {
   return (
